@@ -1,0 +1,30 @@
+name: wafarha_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hooks_riverpod: ^2.2.0
+  freezed_annotation: ^2.4.1
+  flutter_hooks: ^0.18.5+1
+  riverpod_annotation: ^2.1.1
+  flutter_screenutil: ^5.5.3+2
+  flutter_animate: ^1.0.0
+  dio: ^4.0.6
+  logger: ^1.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.0
+  build_runner: ^2.4.8 
+  riverpod_generator: ^2.2.3
+  freezed: ^2.4.6
+flutter:
+  uses-material-design: true

@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+      
+        {
+            "name": "Emilator-test",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            //stage
+            // "program": "app/lib/main_stg.dart",
+            //dev
+            "program": "lib/main.dart",
+            "args": [
+                
+                "-t",
+                "lib/main.dart",
+                "-d",
+                "emulator-5554",
+                "--debug",
+                "--flavor",
+                "development"
+              
+            ],
+            "toolArgs": [
+                "--dart-define",
+                //dev
+                "API_URL= http://femtovision-001-site2.ctempurl.com/api/",
+                
+            ]
+        },
+      
+    ]
+}
